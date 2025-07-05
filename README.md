@@ -1,6 +1,15 @@
-# Chess-Coding-Adventure
-Version 2.0 of the Coding Adventure Bot. Good at beating up humans (~2600 on [lichess](https://lichess.org/@/CodingAdventureBot/playing)), but still has a very long way to go against its fellow machines (Stockfish crushes it even with rook-odds!)
+# Chess Engine
 
-You can find some videos about the bot's creation process here: [V1](https://www.youtube.com/watch?v=U4ogK0MIzqk) and [V2](https://youtu.be/_vqlIPDR2TU)
+A simple yet powerful chess engine capable of playing at ~2600 Elo on [Lichess](https://lichess.org/@/CodingAdventureBot/playing). While it performs well against human players, it still lags behind advanced engines like Stockfish.
 
-Note: this is the UCI version of the program, which does not have a graphical interface. The UCI implementation is also very barebones -- I just did the minimum to get it up and running on lichess.
+This project uses the **UCI (Universal Chess Interface)** protocol to communicate with external chess GUIs and platforms. Note that it does **not include a graphical interface** and is a minimal implementation designed primarily for Lichess integration.
+
+## Source & Inspiration
+
+- Original project by [Sebastian Lague](https://github.com/SebLague)
+- Development walkthroughs:  
+  - [Version 1 Video](https://www.youtube.com/watch?v=U4ogK0MIzqk)  
+  - [Version 2 Video](https://youtu.be/_vqlIPDR2TU)
+
+---
+
